@@ -1,0 +1,18 @@
+# first setup docker-ce.repo
+
+/etc/yum.repos.d/docker-ce.repo
+
+
+#install
+
+yum install docker-ce -y
+
+
+# Docker start services
+
+systemctl start docker
+
+#Docker status 
+
+systemctl status docker
+
